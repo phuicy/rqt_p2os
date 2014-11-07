@@ -1,0 +1,31 @@
+<package>
+  <name>rqt_p2os</name>
+  <version>0.3.0</version>
+  <description>rqt_p2os provides a GUI plugin for p2os</description>
+  <maintainer email="asd@asd.com">Guy Burroughes</maintainer>
+
+  <license>BSD</license>
+
+  <!--<url type="website">http://ros.org/wiki/rqt_p2os</url>
+  <url type="repository">https://github.com/ros-visualization/rqt_common_plugins</url>
+  <url type="bugtracker">https://github.com/ros-visualization/rqt_common_plugins/issues</url> -->
+
+  <author>Guy Burroughes</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  
+  <build_depend>std_msgs</build_depend>
+  <build_depend>rqt_gui</build_depend>
+  <build_depend>rqt_gui_cpp</build_depend>
+  <run_depend>rqt_gui</run_depend>
+  <run_depend>rqt_gui_cpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <build_depend>p2os_msgs</build_depend>
+  <run_depend>p2os_msgs</run_depend>
+
+  <export>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

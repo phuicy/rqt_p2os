@@ -1,0 +1,12 @@
+<library path="lib/librqt_p2os">
+  <class name="rqt_p2os/p2os" type="rqt_p2os::p2os" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      A GUI plugin for p2os.
+    </description>
+    <qtgui>
+      <label>p2os</label>
+      <icon type="theme">image-x-generic</icon>
+      <statustip>A GUI plugin.</statustip>
+    </qtgui>
+  </class>
+</library>
