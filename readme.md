@@ -9,8 +9,13 @@ This allows rqt_p2os to run ony ROS build post Groovy.
 
 Fully featured with:
 
-- With a motor controller button
-- A slightly improved battery indicator
+- With a motor controller button.
+
+And thats not all, 
+
+- A slightly improved battery indicator.
+
+That's all.
 
 
 ### Build
